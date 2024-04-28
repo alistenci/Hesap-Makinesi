@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.containerr{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+}
+.ekran{
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+    background-color: rgba(128, 128, 128, 0.3);
+    border: none;
+}
+
+.butonlar{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+.butonlar button{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 2px;
+    /*background-color: #d1485f;*/
+    background-color: rgba(128, 128, 128, 0.3);
+}
+.butonlar button:active{
+    background-color: gray;
+}
+.butonlar .sayilar{
+    background-color: white;
+}
+#esittir{
+    background-color: #d1485f;
+}
+.sayilar:active,
+#esittir:active {
+    background-color: gray;
+}
+.ekranic{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.4);
+    border: none;
+}
